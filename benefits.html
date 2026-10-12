@@ -4,55 +4,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tidal Buds - Benefits</title>
+    <title>Tech: Our Design | Waterproof Earbuds</title>
+    <!-- Derek's external CSS + font -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/sea4ybc.css">
+    <!-- My internal CSS: puts the subpage links and side content where our outline has them -->
+    <style>
+        .subpages {
+            grid-row: 2;
+            grid-column: 1;
+        }
+
+        .sidecontent {
+            grid-column: 3;
+            grid-row: 3 / span 2;
+        }
+
+        .footer {
+            grid-row: 7;
+            grid-column: 1 / span 3;
+        }
+    </style>
 </head>
 
 <body>
     <div class="grid-container">
-        <!-- Navigation Bar -->
+
+        <!-- Nav bar (copied from creation.html) -->
         <div class="nav-menu grid-item">
             <ul class="nav">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="technology.html">Technology</a></li>
-                <li><a href="sourcing.html">Microsoft Sourcing</a></li>
-                <li><a href="creation.html">Creation</a></li>
-                <li><a href="features.html">Features</a></li>
-                <li><a href="benefits.html" class="active">Benefits</a></li>
+                <li><a href="tech-design.html" class="active">Technology</a></li>
             </ul>
         </div>
 
-        <!-- Main Header Box -->
-        <div class="header-box grid-item content-box">
-            <h1>Tidal Buds - Benefits</h1>
-            <h2>Here's why Tidal Buds are the best choice for your shower concerts:</h2>
+        <div class="grid-item subpages">
+            <h3>Subpages</h3>
+            <p><a href="tech-design.html">Our Design (Max)</a></p>
+            <p><a href="tech-WA.html">Tech from WA (Max)</a></p>
+            <p><a href="creation.html">Production (Derek)</a></p>
+            <p><a href="benefits.html">Pros &amp; Features (Vihaan)</a></p>
         </div>
 
-        <!-- Vertical Stack of Benefit Boxes (Aligned Right) -->
-        <div class="side-content grid-item content-box">
-            <p>Parent-Approved Silence</p>
+        <div class="grid-item main-img">
+            <img class="image1" src="images/earbuds.jpg" alt="Our waterproof earbuds in water">
+            <!--this is js a placeholder for like a photo or something-->
         </div>
 
-        <div class="benefit-box grid-item content-box">
-            <p>Natural Water Block</p>
+        <div class="grid-item main1">
+            <h1>Why Choose Us?</h1>
+            <p>Most earbuds are only "water resistant." Ours are fully waterproof, so you can swim, surf, shower, or
+                really do anything with them.</p>
+            <h2>No Open Ports</h2>
+            <p>Charging ports are the main way water gets in, so our earbuds have none. They charge wirelessly in the
+                case, and the shell is sealed in one piece.</p>
         </div>
 
-        <div class="benefit-box grid-item content-box">
-            <p>Ultra-Secure & Comfy Fit</p>
+        <div class="grid-item main2">
+            <h2>Swim Mode</h2>
+            <p>Sound travels differently underwater. We added a swim mode that senses when you go under the water and
+                adjusts the audio so music stays clear.</p>
         </div>
 
-        <div class="benefit-box grid-item content-box">
-            <p>Long-Term Sound Quality</p>
+        <div class="grid-item sidecontent">
+            <h3>Quick Specs</h3>
+            <p>Max depth: 3 meters</p>
+            <p>Charging: wireless case</p>
         </div>
 
-        <div class="benefit-box grid-item content-box">
-            <p>Unbeatable $19.99 Value</p>
+        <div class="grid-item footer">
+            <p>2026 Max H</p>
         </div>
 
-        <div class="benefit-box grid-item content-box">
-            <p>Ready for Your Next Concert</p>
-        </div>
     </div>
 </body>
 
