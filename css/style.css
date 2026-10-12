@@ -1,9 +1,11 @@
 .nav {
     list-style-type: none;
-    background-color: black;
+    background-color: #faf4e9;
+    background-image: linear-gradient(to bottom right, #faf4e9,#ece1cc, #f9f1e0);
     margin: 0;
     padding: 0;
     overflow: hidden;
+    border-radius: 15px;
 }
 ul.nav li {
     float: left
@@ -11,13 +13,17 @@ ul.nav li {
 ul.nav li a {
     display: block;
     padding: 8px 16px;
-    color: white;
+    color: #ABA598;
     text-decoration: none;
     font-size: 20px;
 }
 ul.nav a:hover {
-    background-color: gray;
-    color: lightblue;
+    background-color: #e0d8c8;
+    color: #898375;
+}
+ul.nav a:active {
+    background-color: #e9e2d3;
+    color: #969082;
 }
 .grid-container {
     display: grid;
@@ -27,6 +33,7 @@ ul.nav a:hover {
 .grid-item {
     background-color: lightblue;
     text-align: center;
+    border-radius:15px;
 }
 .nav-menu {
     grid-row: 1;
