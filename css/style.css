@@ -27,8 +27,8 @@ ul.nav a:active {
 }
 .grid-container {
     display: grid;
-    grid-gap: 10px;
-    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto auto;
 }
 .grid-item {
     background-color: #bab4a7;
@@ -38,25 +38,6 @@ ul.nav a:active {
 .nav-menu {
     grid-row: 1;
     grid-column: 1 / span 3;
-}
-.main-img {
-    grid-row: 2;
-    grid-column: 2 / span 2;
-}
-.main1 {
-    grid-row: 3;
-    grid-column: 1 / span 2;
-    padding: 30px;
-}
-.main2 {
-    grid-row: 4;
-    grid-column: 1 / span 2;
-    padding: 30px;
-}
-.sidecontent {
-    grid-column: 1;
-    grid-row: 5 / span 2;
-    padding: 30px;
 }
 .footer {
     grid-row: 7;
