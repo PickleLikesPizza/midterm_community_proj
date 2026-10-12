@@ -58,6 +58,10 @@ ul.nav a:active {
     grid-row: 5 / span 2;
     padding: 30px;
 }
+.footer {
+    grid-row: 7;
+    grid-column: 1 / span 3;
+}
 body {
     font-family: "urca", sans-serif;
     font-weight: 200;
