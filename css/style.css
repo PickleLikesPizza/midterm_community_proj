@@ -1,6 +1,6 @@
 .nav {
     list-style-type: none;
-    background-color: #faf4e9;
+    background-color: #ABA598;
     background-image: linear-gradient(to bottom right, #faf4e9,#ece1cc, #f9f1e0);
     margin: 0;
     padding: 0;
@@ -13,17 +13,17 @@ ul.nav li {
 ul.nav li a {
     display: block;
     padding: 8px 16px;
-    color: #ABA598;
+    color: #4A3F2F;
     text-decoration: none;
     font-size: 20px;
 }
 ul.nav a:hover {
     background-color: #e0d8c8;
-    color: #898375;
+    color: #3b3123;
 }
 ul.nav a:active {
     background-color: #e9e2d3;
-    color: #969082;
+    color: #423728;
 }
 .grid-container {
     display: grid;
@@ -31,7 +31,7 @@ ul.nav a:active {
     grid-template-columns: auto auto auto;
 }
 .grid-item {
-    background-color: lightblue;
+    background-color: #bab4a7;
     text-align: center;
     border-radius:15px;
 }
@@ -42,10 +42,6 @@ ul.nav a:active {
 .main-img {
     grid-row: 2;
     grid-column: 2 / span 2;
-}
-.image1 {
-    max-height: 400px;
-    max-width: 800px;
 }
 .main1 {
     grid-row: 3;
@@ -61,6 +57,12 @@ ul.nav a:active {
     grid-column: 1;
     grid-row: 5 / span 2;
     padding: 30px;
+}
+body {
+    font-family: "urca", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    background-color:#faf4e9; 
 }
 h1 {
     font-family: "urca", sans-serif;
@@ -78,6 +80,11 @@ h3 {
     font-style: normal;
 }
 p {
+    font-family: "urca", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+a {
     font-family: "urca", sans-serif;
     font-weight: 300;
     font-style: normal;
