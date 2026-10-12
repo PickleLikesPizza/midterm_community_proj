@@ -4,56 +4,39 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tidal Buds - Design</title>
+    <title>Tech: Our Design | Waterproof Earbuds</title>
     <!-- Derek's external CSS + font -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/sea4ybc.css">
-<!-- Updated internal CSS to tighten spacing for the footer -->
-<style>
-    .grid-container {
-        grid-template-columns: 250px 1fr 1fr;
-        grid-row-gap: 10px;
-        /* Reduces vertical gap between all grid boxes */
-    }
+    <!-- Updated internal CSS to fix nav height and grid placement -->
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 250px 1fr 1fr;
+            grid-row-gap: 10px;
+            grid-column-gap: 20px;
+        }
 
-    .main-img {
-        grid-row: 2;
-        grid-column: 2 / span 3;
-    }
+        /* Forces the navigation bar to stay thin and span across the top */
+        .nav-menu {
+            grid-column: 1 / span 3;
+            grid-row: 1;
+            height: auto !important;
+        }
 
-    .subpages {
+        .subpages {
             grid-row: 2;
-            grid-column: 2 / span 3;
-        }
-
-        .image1 {
-            max-width: 100%;
-            max-height: 400px;
-        }
-
-        .main1 {
-            grid-row: 3;
-            grid-column: 2 / span 2;
-            padding: 30px;
-        }
-
-        .main2 {
-            grid-row: 4;
-            grid-column: 2 / span 2;
-            padding: 30px;
+            grid-column: 1;
         }
 
         .sidecontent {
-        .sidecontent {
-            grid-column: 4;
-            grid-row: 3 / span 2;
-            padding: 30px;
+            grid-column: 3;
+            grid-row: 2;
         }
 
         .footer {
+            grid-column: 1 / span 3;
             margin-top: 5px;
-            /* Pulls the footer closer to the boxes above */
-            grid-column: 2 / span 3;
         }
     </style>
 </head>
@@ -61,6 +44,7 @@
 <body>
     <div class="grid-container">
 
+        <!-- Nav bar -->
         <div class="nav-menu grid-item">
             <ul class="nav">
                 <li><a href="index.html">Home</a></li>
@@ -78,21 +62,6 @@
             <p><a href="tech-WA.html">Tech from WA (Max)</a></p>
             <p><a href="creation.html">Production (Derek)</a></p>
             <p><a href="benefits.html">Pros & Features (Vihaan)</a></p>
-        </div>
-
-        <div class="subnav-menu grid-item">
-            <ul class="subnav">
-                <li><a href="tech-design.html">Design</a></li>
-                <li><a href="tech-WA.html">Microsoft Tech</a></li>
-                <li><a href="creation.html">Creation</a></li>
-                <li><a href="#">Features</a></li>
-                <li><a href="benefits.html">Benefits</a></li>
-            </ul>
-        </div>
-
-        <div class="grid-item main-img">
-            <img class="image1" src="images/earbuds.jpg" alt="Tidal Buds in their charging case on a wet beach">
-        </div>
         </div>
 
         <div class="grid-item main1">
@@ -120,9 +89,9 @@
 
         <!-- Quick Specs -->
         <div class="grid-item sidecontent">
-            <h3>Quick Specs</h3>
-            <p>Max depth: 3 meters</p>
-            <p>Charging: wireless case</p>
+            <img src="images/usage.jpg" alt="Image of a customer enjoying our product"
+                style="width:20%; border-radius:10px;">
+            <p>Image of a customer "enjoying" our amazing product</p>
         </div>
 
         <!-- Ultra-Secure Ergonomic Fit -->
@@ -148,11 +117,13 @@
 
         <!-- Extra Bottom Right Box -->
         <div class="grid-item main2">
-            <h2></h2>
+            <h2>All-Day Comfort</h2>
+            <p>Featherlight weight distribution ensures zero ear fatigue, so you can enjoy hours of uninterrupted
+                listening pleasure.</p>
         </div>
 
         <div class="grid-item footer">
-            <p>Vihaan Duddupudi</p>
+            <p>2026 Vihaan Duddupudi</p>
         </div>
 
     </div>
