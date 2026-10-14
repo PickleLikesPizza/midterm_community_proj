@@ -44,8 +44,8 @@ ul.nav a:hover {
     background-color: #e0d8c8;
     color: #3b3123;
 }
-ul.nav a:active {
-    background-color: #e9e2d3;
+ul.nav a.active {
+    background-image: linear-gradient(to bottom right, #f0e9da,#dfd2bb, #e7decb);
     color: #423728;
 }
 .grid-container {
@@ -57,6 +57,15 @@ ul.nav a:active {
     background-color: #bab4a7;
     text-align: center;
     border-radius:15px;
+}
+.grid-item img {
+    padding:0px;
+    margin:0;
+    display:inline-block;
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-bottom:40px;
 }
 .nav-menu {
     grid-row: 1;
@@ -80,24 +89,29 @@ h1 {
     font-family: "urca", sans-serif;
     font-weight: 700;
     font-style: normal;
+    color:#faf4e9;
 }
 h2 {
     font-family: "urca", sans-serif;
     font-weight: 500;
     font-style: normal;
+    color:#e4daca;
 }
 h3 {
     font-family: "urca", sans-serif;
     font-weight: 400;
     font-style: normal;
+    color:#dbd0bc;
 }
 p {
     font-family: "urca", sans-serif;
     font-weight: 300;
     font-style: normal;
+    color:#faf4e9;
 }
 a {
     font-family: "urca", sans-serif;
     font-weight: 300;
     font-style: normal;
+    color:#faf4e9;
 }
