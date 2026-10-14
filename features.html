@@ -8,97 +8,12 @@
     <!-- Derek's external CSS + font -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/sea4ybc.css">
-    <!-- Updated internal CSS matching the reference navigation and layout -->
-    <style>
-        .grid-container {
-            display: grid;
-            grid-template-columns: 250px 1fr 1fr 1fr;
-            grid-row-gap: 10px;
-            grid-column-gap: 20px;
-        }
-
-        /* Forces the navigation bar to stay thin and span across the top */
-        .nav-menu {
-            grid-column: 1 / span 4;
-            grid-row: 1;
-            height: auto !important;
-        }
-
-        /* keep the subpage menu in the top-left box */
-        .subnav-menu {
-            grid-row: 2;
-            grid-column: 1;
-        }
-
-        .main-img {
-            grid-row: 2;
-            grid-column: 2 / span 3;
-        }
-
-        .image1 {
-            max-width: 100%;
-            max-height: 400px;
-            border-radius: 10px;
-        }
-
-        /* each content box gets its own row */
-        .main1 {
-            grid-row: 3;
-        }
-
-        .main2 {
-            grid-row: 4;
-        }
-
-        .main3 {
-            grid-row: 5;
-        }
-
-        .main4 {
-            grid-row: 6;
-        }
-
-        .main5 {
-            grid-row: 7;
-        }
-
-        .main6 {
-            grid-row: 8;
-        }
-
-        .main7 {
-            grid-row: 9;
-        }
-
-        .main1,
-        .main2,
-        .main3,
-        .main4,
-        .main5,
-        .main6,
-        .main7 {
-            grid-column: 1 / span 3;
-            padding: 30px;
-        }
-
-        .sidecontent {
-            grid-row: 3 / span 7;
-            grid-column: 4;
-            padding: 30px;
-        }
-
-        .footer {
-            grid-row: 10;
-            grid-column: 1 / span 4;
-            margin-top: 5px;
-        }
-    </style>
 </head>
 
 <body>
     <div class="grid-container">
 
-        <!-- Top Nav bar restricted to Home and Subpages -->
+        <!-- Top Nav bar -->
         <div class="nav-menu grid-item">
             <ul class="nav">
                 <li><a href="index.html">Home</a></li>
@@ -117,7 +32,7 @@
             </ul>
         </div>
 
-        <!-- Main Image / Hero Area -->
+        <!-- Main Image Area -->
         <div class="grid-item main-img">
             <img class="image1" src="images/battery-icon-design-template-simple-and-clean-vector.jpg"
                 alt="Image of a customer enjoying our product">
@@ -133,51 +48,42 @@
                 rock out in heavy rain without missing a beat.</p>
         </div>
 
-        <!-- Swim Mode -->
         <div class="grid-item main2">
             <h2>Adaptive Swim Mode</h2>
             <p>Advanced acoustic sensors automatically detect when you submerge, dynamically boosting mid-range
                 frequencies to keep your music punchy and intelligible underwater.</p>
         </div>
 
-        <!-- Parent-Approved Privacy -->
         <div class="grid-item main3">
             <h2>Directional Sound Isolation</h2>
             <p>Our specialized acoustic baffles direct sound straight down your ear canal, cutting down audio bleed so
                 only you enjoy your private playlist.</p>
         </div>
 
-        <!-- Ultra-Secure Ergonomic Fit -->
         <div class="grid-item main4">
             <h2>Bluetooth 5.4 Ultra-Link</h2>
             <p>Experience zero-latency wireless transmission with extended range, ensuring a rock-solid connection
                 whether your phone is poolside or in your locker.</p>
         </div>
 
-        <!-- Built to Last -->
         <div class="grid-item main5">
             <h2>Touch & Gesture Controls</h2>
             <p>Easily skip tracks, adjust volume, or switch audio modes with responsive wet-touch capacitive sensors
                 that never slip or fail in the water.</p>
         </div>
 
-        <!-- Smart Investment -->
         <div class="grid-item main6">
             <h2>Rapid Wireless Charging</h2>
             <p>Drop them into their compact, sealed magnetic case for just 15 minutes to get a full 3 hours of
                 continuous playback power.</p>
         </div>
 
-        <!-- Extra Bottom Right Box -->
         <div class="grid-item main7">
             <h2>Transparency Ambient Mode</h2>
             <p>Need to talk to your coach or hear your surroundings? Switch modes instantly to blend external sounds
                 smoothly into your listening experience.</p>
         </div>
 
-        <!-- Quick Specs Sidecontent Box -->
-        <!-- Quick Specs Sidecontent Box -->
-        <!-- Quick Specs Sidecontent Box -->
         <!-- Quick Specs Sidecontent Box -->
         <div class="grid-item sidecontent">
             <h3>Quick Specs & Features</h3>
@@ -199,3 +105,12 @@
             <p><strong>Portability:</strong> Ultra-compact magnetic charging case easily slips into any pocket, keeping
                 your earbuds protected and fully powered on the go.</p>
         </div>
+
+        <div class="grid-item footer">
+            <p>2026 Vihaan Duddupudi</p>
+        </div>
+
+    </div>
+</body>
+
+</html>

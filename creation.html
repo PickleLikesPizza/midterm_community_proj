@@ -7,35 +7,11 @@
     <title>Tidal Buds - Creation</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/sea4ybc.css">
-    <style>
-        .grid-container {
-            display: grid;
-            grid-template-columns: 250px 1fr 1fr;
-            grid-row-gap: 10px;
-            grid-column-gap: 20px;
-        }
-
-        .nav-menu {
-            grid-column: 1 / span 3;
-            grid-row: 1;
-            height: auto !important;
-        }
-
-        .subnav-menu {
-            grid-row: 2 / span 3;
-            grid-column: 1;
-        }
-
-        .footer {
-            grid-row: 5;
-            grid-column: 1 / span 3;
-            margin-top: 10px;
-        }
-    </style>
 </head>
 
 <body>
     <div class="grid-container">
+        <!-- Top Nav bar -->
         <div class="nav-menu grid-item">
             <ul class="nav">
                 <li><a href="index.html">Home</a></li>
@@ -43,6 +19,7 @@
             </ul>
         </div>
 
+        <!-- Vertical Subnav Menu -->
         <div class="subnav-menu grid-item">
             <ul class="subnav">
                 <li><a href="tech-design.html">Design</a></li>
@@ -53,16 +30,19 @@
             </ul>
         </div>
 
-        <div class="grid-item" style="grid-row:2; grid-column:2;"><img src="images/dyearbuds.jpe"
-                alt="Tidal Buds in water" style="max-width:100%; border-radius:10px;"></div>
+        <!-- Main Image Area -->
+        <div class="grid-item main-img">
+            <img class="image1" src="images/dyearbuds.jpe" alt="Tidal Buds in water">
+        </div>
 
-        <div class="grid-item" style="grid-row:2; grid-column:3;">
+        <!-- Content Boxes mapped to main classes -->
+        <div class="grid-item main1">
             <h2>TIDAL BUDS: Factory to Doorstep</h2>
             <p>Discover how our waterproof earbuds transition from an innovative concept into a fully manufactured,
                 high-performance product ready for your daily routine.</p>
         </div>
 
-        <div class="grid-item" style="grid-row:3; grid-column: 2;">
+        <div class="grid-item main2">
             <h2>Precision Manufacturing & Quality Control</h2>
             <p>Every single pair of Tidal Buds is put through rigorous pressure testing in specialized vacuum chambers.
                 This ensures that the one-piece sealed shell can withstand deep submersions and intense daily wear
@@ -71,28 +51,28 @@
                 inspection to guarantee absolute comfort, durability, and peerless sound fidelity.</p>
         </div>
 
-        <div class="grid-item" style="grid-row:3; grid-column: 3;">
-            <h2>Production Quick Specs</h2>
-            <p><strong>Assembly:</strong> Clean-room automated sealing</p>
-            <p><strong>Testing:</strong> 100% IPX8 pressure-tested</p>
-            <p><strong>Packaging:</strong> 100% recyclable, eco-friendly materials</p>
-            <p><strong>Fulfillment:</strong> Direct-to-consumer carbon-neutral shipping</p>
-        </div>
-
-        <div class="grid-item" style="grid-row:4; grid-column: 2;">
+        <div class="grid-item main3">
             <h2>Sustainable Materials & Sourcing</h2>
             <p>We believe in building technology that respects our planet. All plastics used in our charging cases and
                 packaging are sourced from recycled polymers, drastically cutting down our carbon footprint without
                 compromising structural integrity or resilience.</p>
         </div>
 
-        <div class="grid-item" style="grid-row:4; grid-column: 3;">
+        <!-- Side Content mapped to sidecontent class -->
+        <div class="grid-item sidecontent">
+            <h2>Production Quick Specs</h2>
+            <p><strong>Assembly:</strong> Clean-room automated sealing</p>
+            <p><strong>Testing:</strong> 100% IPX8 pressure-tested</p>
+            <p><strong>Packaging:</strong> 100% recyclable, eco-friendly materials</p>
+            <p><strong>Fulfillment:</strong> Direct-to-consumer carbon-neutral shipping</p>
+            <hr style="border: 0; height: 1px; background: #dbd0bc; margin: 20px 0;">
             <h2>Global Quality Assurance</h2>
             <p>Before any batch leaves our facility, random samples undergo stress trials involving extreme temperature
                 shifts, drop tests, and chemical exposure tests to guarantee they easily outperform market expectations.
             </p>
         </div>
 
+        <!-- Footer -->
         <div class="grid-item footer">
             <p>2026 Derek Y</p>
         </div>
