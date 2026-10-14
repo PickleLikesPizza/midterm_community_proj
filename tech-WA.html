@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tidal Buds - Microsoft Tech</title>
+    <!-- Derek's external CSS + font -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/sea4ybc.css">
+    <!-- My internal CSS: places my content in the 4-column grid -->
+    <style>
+        
+        .subnav-menu {
+            grid-row: 2;
+            grid-column: 1;
+        }
+
+        .main-img {
+            grid-row: 2;
+            grid-column: 2 / span 3;
+        }
+
+        .image1 {
+            max-width: 100%;
+            max-height: 400px;
+        }
+
+        .main1 {
+            grid-row: 3;
+            grid-column: 1 / span 3;
+            padding: 30px;
+        }
+
+        .main2 {
+            grid-row: 4;
+            grid-column: 1 / span 3;
+            padding: 30px;
+        }
+
+        .sidecontent {
+            grid-row: 3 / span 2;
+            grid-column: 4;
+            padding: 30px;
+        }
+
+        .footer {
+            grid-row: 5;
+            grid-column: 1 / span 4;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+
+        <div class="nav-menu grid-item">
+            <ul class="nav">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="tech-design.html">Subpages</a></li>
+            </ul>
+        </div>
+
+        <div class="subnav-menu grid-item">
+            <ul class="subnav">
+                <li><a href="tech-design.html">Design</a></li>
+                <li><a href="tech-WA.html">Microsoft Tech</a></li>
+                <li><a href="creation.html">Creation</a></li>
+                <li><a href="#">Features</a></li>
+                <li><a href="benefits.html">Benefits</a></li>
+            </ul>
+        </div>
+
+        <div class="grid-item main-img">
+            <img class="image1" src="images/Seattlegtechmap.png" alt="Washington tech">
+        </div>
+
+        <div class="grid-item main1">
+            <h1>Powered by Washington Tech</h1>
+            <p>Washington is home to some of the biggest tech companies in the world. Our earbuds use technology from
+                three of them.</p>
+            <h2>Microsoft</h2>
+            <p>Our app runs on Microsoft Azure, which lets us send updates to your earbuds and update and backup your
+                settings.</p>
+        </div>
+
+        <div class="grid-item main2">
+            <h2>Amazon</h2>
+            <p>Alexa is built in, so you can control music hands-free, which is perfect when your hands are wet.</p>
+            <h2>T-Mobile</h2>
+            <p>Our premium model has an eSIM on T-Mobile's 5G network, so you can stream music without your phone near
+                the water.</p>
+        </div>
+
+        <div class="grid-item sidecontent">
+            <h3>Quick Specs</h3>
+            <p>Voice: Alexa built in</p>
+            <p>Streaming: T-Mobile 5G</p>
+        </div>
+
+        <div class="grid-item footer">
+            <p>2026 Max H</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
