@@ -77,7 +77,16 @@ ul.nav a.active {
     object-fit: cover;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    border-radius:25px;
     margin-bottom: 40px;
+}
+.grid-item a {
+    text-decoration: none;
+}
+.grid-imgs {
+    background-color:#9e988b;
+    padding-top: 20px;
+    padding-bottom:20px;
 }
 
 .nav-menu {
