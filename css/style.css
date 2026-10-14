@@ -63,9 +63,15 @@ ul.nav a.active {
     margin:0;
     display:inline-block;
     object-fit: cover;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    margin-bottom:40px;
+    border-radius:25px;
+}
+.grid-item a {
+    text-decoration: none;
+}
+.grid-imgs {
+    background-color:#9e988b;
+    padding-top: 20px;
+    padding-bottom:20px;
 }
 .nav-menu {
     grid-row: 1;
