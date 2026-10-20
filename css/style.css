@@ -1,6 +1,7 @@
 .nav {
     list-style-type: none;
     background-color: #ABA598;
+    /* NEW FEATURE */
     background-image: linear-gradient(to bottom right, #faf4e9, #ece1cc, #f9f1e0);
     margin: 0;
     padding: 0;
